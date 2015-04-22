@@ -57,5 +57,8 @@ The tool only merges the content of directories that are more than
 - `/querylog/2015/02/11/03/*` will be reduced to `/querylog/2015/02/11/03`
 - `/querylog/2015/02/11/*` will not be altered.
 
+Please note that the reduction is not an atomic operation. Jobs
+running at the same time may see duplicate data.
+
 Coalesce is trivial and the code is really dumb, but I couldn't find any
 existing tools to do the job.
