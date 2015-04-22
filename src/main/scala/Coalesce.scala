@@ -1,5 +1,4 @@
 
-import java.net.URI
 import org.apache.hadoop.conf._
 import org.apache.hadoop.fs._
 import org.apache.log4j.{BasicConfigurator, Level, Logger}
