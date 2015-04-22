@@ -47,6 +47,7 @@ $ sbt 'run <minimum depth> <root path>'
 Example:
 ```
 $ sbt 'run 3 hdfs://nn.example.com/querylog/2015'
+```
 
 The tool only merges the content of directories that are more than
 `<minimum depth>` steps away from the root. For example, with
